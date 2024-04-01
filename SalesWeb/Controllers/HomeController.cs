@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SalesWeb.Models;
-using System;
-using System.Collections.Generic;
+using SalesWeb.Models.ViewModels;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace SalesWeb.Controllers
 {
@@ -25,6 +22,13 @@ namespace SalesWeb.Controllers
 
         public IActionResult Privacy()
         {
+
+            return View();
+        }
+
+        public IActionResult About()
+        {
+
             return View();
         }
 
