@@ -23,6 +23,7 @@
     <Content Remove="Views\Home\Component1.razor" />
     <Content Remove="Views\Home\Component2.razor" />
     <Content Remove="Views\Home\Index - Cópia.cshtml" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\bootstrap-flatly.css" />
   </ItemGroup>
 
   <ItemGroup>
