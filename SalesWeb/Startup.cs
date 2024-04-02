@@ -25,10 +25,15 @@ namespace SalesWeb
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
-            services.AddDbContext<SalesWebContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SalesWebContext")));
+
+
+            string mySqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContextPool<SalesWebContext>(options => options.UseMySql(mySqlConnectionString, ServerVersion.AutoDetect(mySqlConnectionString)));
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
