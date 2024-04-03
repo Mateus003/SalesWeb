@@ -574,3 +574,4 @@ C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesW
 C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\ref\SalesWeb.dll
 C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesWeb.pdb
 C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesWeb.genruntimeconfig.cache
+C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesWeb.csproj.AssemblyReference.cache

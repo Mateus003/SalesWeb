@@ -12,14 +12,25 @@ namespace SalesWeb.Models
 
         public string Name { get; set; }
 
-        public Departament()
-        {
+        public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
 
-        }
-        public Departament(int id, string name)
-        {
+        public Departament() { }
+
+
+        public Departament(int id, string name){
             Id = id;
             Name = name;
         }
+
+        public void AddASeller(Seller seller)
+        {
+            Sellers.Add(seller);
+        }
+
+
+        public double TotalSales(DateTime initial, DateTime final) => Sellers.Sum(sl => sl.TotalSales(initial, final));
+
+
+
     }
 }
