@@ -19,29 +19,33 @@ namespace SalesWeb.Models
 
         public Departament Departament { get; set; }
 
-        public ICollection<SellerRecords> SellerRecords { get; set; } = new List<SellerRecords>();
+        public ICollection<SalesRecord> SellerRecords { get; set; } = new List<SalesRecord>();
 
         public Seller() { }
 
-        public Seller(int id, string name, double baseSalary, DateTime birthDate, Departament departament)
+        public Seller(int id, string name, string email,  DateTime birthDate, double baseSalary, Departament departament)
         {
+           
             Id = id;
             Name = name;
+            Email = email;
             BaseSalary = baseSalary;
             BirthDate = birthDate;
             Departament = departament;
 
         }
 
-        public void AddSales(SellerRecords sellerRecord)
+     
+
+        public void AddSales(SalesRecord salesRecord)
         {
-            SellerRecords.Add(sellerRecord);
+            SellerRecords.Add(salesRecord);
         }
 
 
-        public void RemoveSales(SellerRecords sellerRecord)
+        public void RemoveSales(SalesRecord salesRecord)
         {
-            SellerRecords.Remove(sellerRecord);
+            SellerRecords.Remove(salesRecord);
         }
 
         public double TotalSales(DateTime initial, DateTime final) => SellerRecords.Where(sr => sr.Date >= initial && sr.Date <= final).Sum(sr=> sr.Amount);

@@ -2,7 +2,7 @@
 
 namespace SalesWeb.Models
 {
-    public class SellerRecords
+    public class SalesRecord
     {
         public int Id { get; set; }
 
@@ -15,9 +15,9 @@ namespace SalesWeb.Models
         public Seller Seller { get; set; }
 
 
-        public SellerRecords(){}
+        public SalesRecord(){}
 
-        public SellerRecords(int id, DateTime date, double amount, SaleStatus status, Seller seller)
+        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller seller)
         {
             Id = id;
             Date = date;
