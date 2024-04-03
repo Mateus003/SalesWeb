@@ -575,3 +575,8 @@ C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\ref\Sa
 C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesWeb.pdb
 C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesWeb.genruntimeconfig.cache
 C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\SalesWeb.csproj.AssemblyReference.cache
+C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\Razor\Views\Sellers\Create.cshtml.g.cs
+C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\Razor\Views\Sellers\Delete.cshtml.g.cs
+C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\Razor\Views\Sellers\Edit.cshtml.g.cs
+C:\Users\Mateus\Source\Repos\Mateus003\SalesWeb\SalesWeb\obj\Debug\net5.0\Razor\Views\Sellers\Index.cshtml.g.cs
